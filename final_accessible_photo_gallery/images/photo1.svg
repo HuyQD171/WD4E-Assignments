@@ -1,8 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="450" viewBox="0 0 700 450">
-  <rect width="700" height="450" fill="#bfdbfe"/>
-  <circle cx="560" cy="90" r="60" fill="#facc15" opacity="0.9"/>
-  <path d="M0 330 L160 170 L320 330 Z" fill="#374151" opacity="0.9"/>
-  <path d="M210 330 L420 120 L700 330 Z" fill="#4b5563" opacity="0.9"/>
-  <rect x="0" y="330" width="700" height="120" fill="#166534" opacity="0.9"/>
-  <text x="350" y="405" text-anchor="middle" font-family="Arial" font-size="42" font-weight="bold" fill="#ffffff">Mountain</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="450" viewBox="0 0 700 450" role="img" aria-labelledby="title desc">
+  <title id="title">Morning balconies</title>
+  <desc id="desc">Sunrise over colorful apartment balconies.</desc>
+  <rect width="700" height="450" fill="#f9d77e"/>
+  <circle cx="88" cy="92" r="56" fill="#fff4bf"/>
+  <rect x="120" y="130" width="460" height="260" rx="12" fill="#31586f"/>
+  <rect x="158" y="166" width="86" height="70" fill="#f7f4ef"/>
+  <rect x="307" y="166" width="86" height="70" fill="#e2f2d5"/>
+  <rect x="456" y="166" width="86" height="70" fill="#cfe8ef"/>
+  <rect x="158" y="277" width="86" height="70" fill="#f4a261"/>
+  <rect x="307" y="277" width="86" height="70" fill="#f7f4ef"/>
+  <rect x="456" y="277" width="86" height="70" fill="#e9c46a"/>
+  <path d="M0 390H700V450H0Z" fill="#143642"/>
 </svg>
