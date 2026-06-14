@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Interactive Photo Gallery</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="addTabFocus()">
+    <main>
+        <h1>Accessible Interactive Photo Gallery</h1>
+
+        <p>
+            Move your mouse over an image or use the Tab key to focus on an image.
+            The larger display area will update automatically.
+        </p>
+
+        <div id="image">
+            Hover over or focus on an image below to display here.
+        </div>
+
+        <section class="gallery" aria-label="Photo gallery">
+            <figure class="preview">
+                <img src="images/photo1.svg" alt="A peaceful mountain under the sun">
+                <figcaption>Mountain</figcaption>
+            </figure>
+
+            <figure class="preview">
+                <img src="images/photo2.svg" alt="A blue beach with a bright sky">
+                <figcaption>Beach</figcaption>
+            </figure>
+
+            <figure class="preview">
+                <img src="images/photo3.svg" alt="A green forest path with trees">
+                <figcaption>Forest</figcaption>
+            </figure>
+
+            <figure class="preview">
+                <img src="images/photo4.svg" alt="A modern city skyline at sunset">
+                <figcaption>City</figcaption>
+            </figure>
+
+            <figure class="preview">
+                <img src="images/photo5.svg" alt="A calm river flowing near green trees">
+                <figcaption>River</figcaption>
+            </figure>
+
+            <figure class="preview">
+                <img src="images/photo6.svg" alt="A colorful flower field in spring">
+                <figcaption>Flowers</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
