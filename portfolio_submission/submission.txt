@@ -1,0 +1,73 @@
+Project Title: Personal Portfolio Website
+
+Written Description:
+
+This project is my personal portfolio website for the course assignment. The website introduces me as a web design student and demonstrates the skills I learned in the course, including semantic HTML, CSS styling, responsive layouts, accessibility, and simple JavaScript interaction.
+
+The site includes the required portfolio sections:
+
+1. About Me
+The About Me section explains who I am, what I practiced, and the design goal of the website.
+
+2. Projects
+The Projects section shows three project cards. These cards link to my course work and demonstrate a gallery-style layout.
+
+3. Contact
+The Contact section includes a contact form with fields for full name, email address, and message. Each input has a visible label.
+
+4. Extras
+The website clearly defines and demonstrates four extras:
+
+Extra 1: Responsive Navigation Menu
+The navigation menu changes based on screen size. On small screens, it becomes a menu button. On larger screens, it displays as a horizontal navigation bar.
+
+Extra 2: CSS Animation and Hover Effects
+The website includes button hover effects, project card hover effects, and a floating animation on the hero panel. The CSS also supports reduced motion for accessibility.
+
+Extra 3: Contact Form
+The contact form includes labeled input fields and a JavaScript confirmation message when the form is submitted.
+
+Extra 4: Project Cards / Gallery
+The Projects section uses a card gallery layout with visual preview areas, descriptions, and links.
+
+Responsive Evidence:
+
+The website is responsive because it uses:
+- A viewport meta tag
+- Mobile-first CSS
+- Flexible widths
+- CSS Grid and Flexbox
+- Media queries at 760px and 900px
+- A mobile navigation menu
+
+On phones, the content stacks vertically and the menu collapses. On tablets and desktops, the About and Projects sections display in columns.
+
+W3C Validator Evidence:
+
+The HTML was written to be W3C validator friendly. It includes:
+- Correct doctype declaration
+- Language attribute on the html element
+- UTF-8 charset
+- Viewport meta tag
+- Semantic HTML elements such as header, nav, main, section, article, form, and footer
+- Proper form labels connected to inputs
+- Accessible navigation button with aria-controls and aria-expanded
+
+Well-Styled Evidence:
+
+The CSS file demonstrates styling through:
+- CSS custom properties for colors and spacing
+- Responsive layout rules
+- Cards with borders, rounded corners, and shadows
+- Styled buttons
+- Hover and focus states
+- Color contrast
+- Animation with keyframes
+- Reduced motion media query
+
+Site Link:
+
+If GitHub Pages is enabled, the live site link is:
+https://huyqd171.github.io/WD4E-Assignments/portfolio_submission/
+
+If the site is not hosted yet, submit the written description and screenshots instead.
