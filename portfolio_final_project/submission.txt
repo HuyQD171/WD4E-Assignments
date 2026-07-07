@@ -1,0 +1,76 @@
+Project Title: Final Personal Portfolio Website
+
+Written Description:
+
+This project is my final personal portfolio website for the course assignment. The site introduces me, presents my course projects, includes a contact form, and clearly demonstrates the four required extras. It was created with HTML, CSS, and JavaScript.
+
+Main Sections:
+
+1. About Me
+This section introduces me as a web design student and explains my learning goals.
+
+2. Projects
+This section displays my course work using project cards. The cards include visual preview areas, descriptions, and links to other assignments.
+
+3. Extras
+This section defines the four extras used in the website.
+
+4. Contact
+This section includes a contact form with name, email, and message fields.
+
+Four Extras:
+
+Extra 1: Responsive Navigation Menu
+The navigation menu works on desktop, tablet, and mobile. On small screens, it becomes a menu button. On larger screens, it becomes a horizontal menu.
+
+Extra 2: CSS Animation and Hover Effects
+The website includes button hover effects, card hover effects, and a floating animation on the project evidence card. The CSS also includes prefers-reduced-motion support.
+
+Extra 3: Contact Form
+The contact section includes a form with visible labels for name, email, and message. JavaScript displays a confirmation message after submission.
+
+Extra 4: Project Cards Gallery
+The projects section is built as a gallery of project cards. Each card includes a visual preview, a short description, and a link.
+
+Responsive Evidence:
+
+The website is responsive because it uses:
+- viewport meta tag
+- mobile-first layout
+- flexible container widths
+- CSS Grid and Flexbox
+- media queries for tablet and desktop layouts
+- a collapsible mobile navigation menu
+
+On mobile screens, content stacks vertically and is easy to read. On tablet and desktop screens, the About and Projects sections use multi-column layouts.
+
+W3C Validator Evidence:
+
+The HTML is written to be W3C validator compliant. It includes:
+- correct doctype declaration
+- lang attribute on the html element
+- UTF-8 meta charset
+- responsive viewport meta tag
+- semantic HTML elements such as header, nav, main, section, article, form, and footer
+- labels connected to form controls
+- ARIA attributes for the responsive navigation menu
+
+Well-Styled Evidence:
+
+The CSS file demonstrates styling through:
+- custom CSS variables
+- a warm color palette
+- card shadows and rounded corners
+- styled buttons
+- responsive grids
+- hover effects
+- visible focus states
+- CSS keyframe animation
+- reduced motion media query
+
+Site Link:
+
+If GitHub Pages is enabled, the live site link is:
+https://huyqd171.github.io/WD4E-Assignments/portfolio_final_project/
+
+If the site is not hosted yet, I can submit this written description and screenshots as evidence.

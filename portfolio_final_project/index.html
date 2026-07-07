@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Personal Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <nav class="nav-wrapper" aria-label="Main navigation">
+            <a class="site-logo" href="#home">Final Portfolio</a>
+            <button class="menu-button" type="button" aria-label="Toggle navigation" aria-controls="main-menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="main-menu" id="main-menu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#extras">Extras</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" id="home">
+            <div class="hero-text">
+                <p class="label">Final Course Portfolio</p>
+                <h1>My Personal Portfolio Website</h1>
+                <p>
+                    This website presents my web design progress and demonstrates responsive design,
+                    semantic HTML, styled CSS, JavaScript interaction, and four required extras.
+                </p>
+                <div class="actions">
+                    <a class="button button-primary" href="#work">Explore Work</a>
+                    <a class="button button-light" href="#extras">See Extras</a>
+                </div>
+            </div>
+            <div class="summary-card" aria-label="Portfolio requirement summary">
+                <h2>Project Evidence</h2>
+                <ul>
+                    <li>W3C-friendly HTML</li>
+                    <li>Responsive CSS layout</li>
+                    <li>Styled cards and forms</li>
+                    <li>Four extras included</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section" id="about">
+            <div class="section-header">
+                <p class="label">About Me</p>
+                <h2>Learning to build useful and accessible websites.</h2>
+            </div>
+            <div class="about-cards">
+                <article>
+                    <h3>Introduction</h3>
+                    <p>
+                        My name is Huy. I am learning web design and practicing how to create websites
+                        that are clear, responsive, and easy to navigate.
+                    </p>
+                </article>
+                <article>
+                    <h3>Course Skills</h3>
+                    <p>
+                        This project uses HTML structure, CSS Grid, Flexbox, media queries,
+                        hover effects, form labels, and JavaScript for the mobile menu.
+                    </p>
+                </article>
+                <article>
+                    <h3>Design Focus</h3>
+                    <p>
+                        I focused on readable content, strong color contrast, smooth spacing,
+                        keyboard focus styles, and a layout that adapts to different screens.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section work-section" id="work">
+            <div class="section-header">
+                <p class="label">Projects</p>
+                <h2>Featured project cards.</h2>
+                <p>These project cards act as the image gallery/project card extra for the portfolio.</p>
+            </div>
+            <div class="work-grid">
+                <article class="work-card">
+                    <div class="card-art art-blue" role="img" aria-label="Blue abstract web project preview"></div>
+                    <div class="card-content">
+                        <h3>JavaScript Photo Gallery</h3>
+                        <p>An interactive gallery assignment that responds to hover and focus events.</p>
+                        <a href="../js_photo_gallery/index.html">View project</a>
+                    </div>
+                </article>
+                <article class="work-card">
+                    <div class="card-art art-green" role="img" aria-label="Green abstract responsive gallery preview"></div>
+                    <div class="card-content">
+                        <h3>Responsive Gallery</h3>
+                        <p>A responsive and accessible gallery designed for multiple screen sizes.</p>
+                        <a href="../final_accessible_photo_gallery/index.html">View project</a>
+                    </div>
+                </article>
+                <article class="work-card">
+                    <div class="card-art art-orange" role="img" aria-label="Orange abstract portfolio preview"></div>
+                    <div class="card-content">
+                        <h3>Final Portfolio</h3>
+                        <p>A final portfolio page showing my About, Projects, Contact, and Extras sections.</p>
+                        <a href="#home">Back to top</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="extras">
+            <div class="section-header">
+                <p class="label">Four Extras</p>
+                <h2>Extras defined and demonstrated.</h2>
+            </div>
+            <div class="extras-grid">
+                <article>
+                    <strong>01</strong>
+                    <h3>Responsive Navigation Menu</h3>
+                    <p>The navigation collapses into a button on mobile and becomes a full menu on desktop.</p>
+                </article>
+                <article>
+                    <strong>02</strong>
+                    <h3>CSS Animation and Hover Effects</h3>
+                    <p>Buttons and project cards animate on hover, and the summary card floats gently.</p>
+                </article>
+                <article>
+                    <strong>03</strong>
+                    <h3>Contact Form</h3>
+                    <p>The contact area includes labeled name, email, and message inputs.</p>
+                </article>
+                <article>
+                    <strong>04</strong>
+                    <h3>Project Cards Gallery</h3>
+                    <p>The projects area uses styled cards with preview artwork, descriptions, and links.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="section-header">
+                <p class="label">Contact</p>
+                <h2>Contact form extra.</h2>
+                <p>This form demonstrates accessible labels and simple JavaScript confirmation.</p>
+            </div>
+            <form class="contact-form" id="contact-form">
+                <div class="field-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                </div>
+                <div class="field-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+                <div class="field-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button class="button button-primary" type="submit">Send Message</button>
+                <p class="status-message" id="status-message" aria-live="polite"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 Final Personal Portfolio. Created for my web design course.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
